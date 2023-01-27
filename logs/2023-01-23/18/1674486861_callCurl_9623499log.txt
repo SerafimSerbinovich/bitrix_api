@@ -1,0 +1,63 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/crm.deal.update.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/crm.deal.update.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 400,
+    'header_size' => 858,
+    'request_size' => 195,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.099770999999999998575361814800999127328395843505859375,
+    'namelookup_time' => 0.00155600000000000009137135492665038327686488628387451171875,
+    'connect_time' => 0.0116740000000000003488320743372241850011050701141357421875,
+    'pretransfer_time' => 0.0251690000000000003999023334699813858605921268463134765625,
+    'size_upload' => 110.0,
+    'size_download' => 64.0,
+    'speed_download' => 641.0,
+    'speed_upload' => 1102.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 110.0,
+    'starttransfer_time' => 0.0251739999999999984614529324744580662809312343597412109375,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '46.235.53.69',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 17055,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 24873,
+    'connect_time_us' => 11674,
+    'namelookup_time_us' => 1556,
+    'pretransfer_time_us' => 25169,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 25174,
+    'total_time_us' => 99771,
+  ),
+  'params' => 
+  array (
+    'method' => 'crm.deal.update',
+    'params' => 
+    array (
+      'id' => '',
+      'fields' => 
+      array (
+        'ASSIGNED_BY_ID' => '118',
+      ),
+      'auth' => '99b1ce6300604f8800000e51000003a4000007b511ed04db04ebc17b463551de420969',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => '',
+    'error_description' => 'ID is not defined or invalid.',
+  ),
+)

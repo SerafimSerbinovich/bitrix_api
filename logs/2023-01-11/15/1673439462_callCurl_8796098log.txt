@@ -1,0 +1,59 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/user.current.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/user.current.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 691,
+    'request_size' => 191,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.457203999999999999293009977918700315058231353759765625,
+    'namelookup_time' => 0.057154000000000003411937399278031080029904842376708984375,
+    'connect_time' => 0.0802279999999999937632111368657206185162067413330078125,
+    'pretransfer_time' => 0.10499999999999999611421941381195210851728916168212890625,
+    'size_upload' => 75.0,
+    'size_download' => 86.0,
+    'speed_download' => 188.0,
+    'speed_upload' => 164.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 75.0,
+    'starttransfer_time' => 0.10500299999999999911448611555897514335811138153076171875,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.53',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 57431,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 104762,
+    'connect_time_us' => 80228,
+    'namelookup_time_us' => 57154,
+    'pretransfer_time_us' => 105000,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 105003,
+    'total_time_us' => 457204,
+  ),
+  'params' => 
+  array (
+    'method' => 'user.current',
+    'params' => 
+    array (
+      'auth' => '0c5cbd6300604f8800000e51000003a400000791bc4bc4d6e12c4b1bcca3cbc44935e6',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => 'expired_token',
+    'error_description' => 'The access token provided has expired.',
+    'error_information' => 'expired token, cant get new auth? Check access oauth server.',
+  ),
+)

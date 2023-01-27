@@ -1,0 +1,72 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1157,
+    'request_size' => 193,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.1726769999999999971596054137989995069801807403564453125,
+    'namelookup_time' => 0.0014079999999999999633903957629854630795307457447052001953125,
+    'connect_time' => 0.02243799999999999961186603059104527346789836883544921875,
+    'pretransfer_time' => 0.04630299999999999693844898729366832412779331207275390625,
+    'size_upload' => 86.0,
+    'size_download' => 289.0,
+    'speed_download' => 1673.0,
+    'speed_upload' => 498.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 86.0,
+    'starttransfer_time' => 0.04630700000000000093880458962303237058222293853759765625,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.53',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 33887,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 46037,
+    'connect_time_us' => 22438,
+    'namelookup_time_us' => 1408,
+    'pretransfer_time_us' => 46303,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 46307,
+    'total_time_us' => 172677,
+  ),
+  'params' => 
+  array (
+    'method' => 'timeman.status',
+    'params' => 
+    array (
+      'USER_ID' => '41',
+      'auth' => '489bce6300604f8800000e51000003a40000076aa23720e6af07705002f860439a8c4a',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      'STATUS' => 'CLOSED',
+    ),
+    'time' => 
+    array (
+      'start' => '1674482213.4587',
+      'finish' => '1674482213.5112',
+      'duration' => '0.052486896514893',
+      'processing' => '0.0051348209381104',
+      'date_start' => '2023-01-23T16:56:53+03:00',
+      'date_finish' => '2023-01-23T16:56:53+03:00',
+      'operating_reset_at' => '1674482813',
+      'operating' => '0',
+    ),
+  ),
+)

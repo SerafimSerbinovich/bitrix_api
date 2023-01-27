@@ -1,0 +1,34 @@
+array (
+  'request' => 
+  array (
+    'event' => 'ONAPPINSTALL',
+    'data' => 
+    array (
+      'VERSION' => '1',
+      'ACTIVE' => 'Y',
+      'INSTALLED' => 'Y',
+      'LANGUAGE_ID' => 'ru',
+    ),
+    'ts' => '1674814606',
+    'auth' => 
+    array (
+      'access_token' => '9fb2d3630060e118000118cd000007d900000799a1c2b894fc59ccf80fb579d5e9e696',
+      'expires' => '1674818207',
+      'expires_in' => '3600',
+      'scope' => 'crm,user,timeman',
+      'domain' => 'eodin.bitrix24.ru',
+      'server_endpoint' => 'https://oauth.bitrix.info/rest/',
+      'status' => 'L',
+      'client_endpoint' => 'https://eodin.bitrix24.ru/rest/',
+      'member_id' => 'eb6e0709679f5e3d333d38aa31adab5f',
+      'user_id' => '2009',
+      'refresh_token' => '9031fb630060e118000118cd000007d9000007dce2c72e31c09e800fe080bd88b6394e',
+      'application_token' => '161d51e190c77f409ea92f2ce8055bfc',
+    ),
+  ),
+  'result' => 
+  array (
+    'rest_only' => true,
+    'install' => true,
+  ),
+)

@@ -1,0 +1,61 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 691,
+    'request_size' => 188,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.08829299999999999648547799324660445563495159149169921875,
+    'namelookup_time' => 0.00106700000000000002307876112439544158405624330043792724609375,
+    'connect_time' => 0.01090099999999999923205873386677922098897397518157958984375,
+    'pretransfer_time' => 0.0246560000000000008324452238639423740096390247344970703125,
+    'size_upload' => 103.0,
+    'size_download' => 86.0,
+    'speed_download' => 974.0,
+    'speed_upload' => 1166.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 103.0,
+    'starttransfer_time' => 0.0246619999999999998940847234507600660435855388641357421875,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '195.208.185.4',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 44087,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 24212,
+    'connect_time_us' => 10901,
+    'namelookup_time_us' => 1067,
+    'pretransfer_time_us' => 24656,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 24662,
+    'total_time_us' => 88293,
+  ),
+  'params' => 
+  array (
+    'method' => 'user.get',
+    'params' => 
+    array (
+      'FILTER' => 'USER_TYPE=employee',
+      'auth' => '07e2be6300604f8800000e51000003a4000007b52bb64b0f4d56df30d3594bee9c34e2',
+    ),
+    'this_auth' => 'N',
+  ),
+  'result' => 
+  array (
+    'error' => 'expired_token',
+    'error_description' => 'The access token provided has expired.',
+    'error_information' => 'expired token, cant get new auth? Check access oauth server.',
+  ),
+)

@@ -1,0 +1,61 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 691,
+    'request_size' => 188,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.1345699999999999951771911810283199883997440338134765625,
+    'namelookup_time' => 0.00139999999999999998577526749699018182582221925258636474609375,
+    'connect_time' => 0.025708000000000001683542194541587377898395061492919921875,
+    'pretransfer_time' => 0.05016700000000000325695026504035922698676586151123046875,
+    'size_upload' => 103.0,
+    'size_download' => 86.0,
+    'speed_download' => 639.0,
+    'speed_upload' => 765.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 103.0,
+    'starttransfer_time' => 0.050169999999999999318323062880153884179890155792236328125,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.50',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 37021,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 49931,
+    'connect_time_us' => 25708,
+    'namelookup_time_us' => 1400,
+    'pretransfer_time_us' => 50167,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 50170,
+    'total_time_us' => 134570,
+  ),
+  'params' => 
+  array (
+    'method' => 'user.get',
+    'params' => 
+    array (
+      'FILTER' => 'USER_TYPE=employee',
+      'auth' => '07e2be6300604f8800000e51000003a4000007b52bb64b0f4d56df30d3594bee9c34e2',
+    ),
+    'this_auth' => 'N',
+  ),
+  'result' => 
+  array (
+    'error' => 'expired_token',
+    'error_description' => 'The access token provided has expired.',
+    'error_information' => 'expired token, cant get new auth? Check access oauth server.',
+  ),
+)

@@ -1,0 +1,60 @@
+array (
+  'url' => 'https://oauth.bitrix.info/oauth/token/',
+  'info' => 
+  array (
+    'url' => 'https://oauth.bitrix.info/oauth/token/',
+    'content_type' => 'application/json',
+    'http_code' => 200,
+    'header_size' => 388,
+    'request_size' => 174,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.27392300000000002757616357484948821365833282470703125,
+    'namelookup_time' => 0.203131000000000006000533403494046069681644439697265625,
+    'connect_time' => 0.213164999999999993374188989037065766751766204833984375,
+    'pretransfer_time' => 0.2357930000000000025917046286849654279649257659912109375,
+    'size_upload' => 214.0,
+    'size_download' => 24.0,
+    'speed_download' => 87.0,
+    'speed_upload' => 781.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 214.0,
+    'starttransfer_time' => 0.235808999999999990837551422373508103191852569580078125,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '185.86.145.32',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 8931,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 235666,
+    'connect_time_us' => 213165,
+    'namelookup_time_us' => 203131,
+    'pretransfer_time_us' => 235793,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 235809,
+    'total_time_us' => 273923,
+  ),
+  'params' => 
+  array (
+    'this_auth' => 'Y',
+    'params' => 
+    array (
+      'client_id' => 'local.63a6cea9d44be0.97951848',
+      'grant_type' => 'refresh_token',
+      'client_secret' => 'I4IZP08zk7ORLGC0Nladt3EdlRCUEN35q2Vv7q4Oe9IAbP3kqQ',
+      'refresh_token' => 'fcdae46300604f8800000e51000003a40000077e030b14db734d7010e5a9c07965f2ad',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => 'wrong_client',
+  ),
+)

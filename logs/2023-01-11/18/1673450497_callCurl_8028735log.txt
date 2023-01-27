@@ -1,0 +1,59 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/disk.folder.get.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/disk.folder.get.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 400,
+    'header_size' => 858,
+    'request_size' => 194,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.1489219999999999988204990586382336914539337158203125,
+    'namelookup_time' => 0.00115099999999999989645782516589633814874105155467987060546875,
+    'connect_time' => 0.022235999999999998821831326267783879302442073822021484375,
+    'pretransfer_time' => 0.046120000000000001272315586220429395325481891632080078125,
+    'size_upload' => 84.0,
+    'size_download' => 98.0,
+    'speed_download' => 658.0,
+    'speed_upload' => 564.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 84.0,
+    'starttransfer_time' => 0.0461229999999999973336883840602240525186061859130859375,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.52',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 58401,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 45866,
+    'connect_time_us' => 22236,
+    'namelookup_time_us' => 1151,
+    'pretransfer_time_us' => 46120,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 46123,
+    'total_time_us' => 148922,
+  ),
+  'params' => 
+  array (
+    'method' => 'disk.folder.get',
+    'params' => 
+    array (
+      'id' => '83712',
+      'auth' => '07e2be6300604f8800000e51000003a4000007b52bb64b0f4d56df30d3594bee9c34e2',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => 'ERROR_NOT_FOUND',
+    'error_description' => 'Could not find entity with id \'83712\'.',
+  ),
+)

@@ -1,0 +1,84 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1157,
+    'request_size' => 193,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.1713099999999999900612834835555986501276493072509765625,
+    'namelookup_time' => 0.0011529999999999999450717158566703801625408232212066650390625,
+    'connect_time' => 0.02296600000000000030286884111774270422756671905517578125,
+    'pretransfer_time' => 0.046384000000000001617816991483778110705316066741943359375,
+    'size_upload' => 86.0,
+    'size_download' => 553.0,
+    'speed_download' => 3228.0,
+    'speed_upload' => 502.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 86.0,
+    'starttransfer_time' => 0.04638799999999999867927868990591377951204776763916015625,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.50',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 5303,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 46193,
+    'connect_time_us' => 22966,
+    'namelookup_time_us' => 1153,
+    'pretransfer_time_us' => 46384,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 46388,
+    'total_time_us' => 171310,
+  ),
+  'params' => 
+  array (
+    'method' => 'timeman.status',
+    'params' => 
+    array (
+      'USER_ID' => '75',
+      'auth' => '1a88ce6300604f8800000e51000003a4000007d1d1911d6572bdc36c49b4a467040574',
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      'STATUS' => 'CLOSED',
+      'TIME_START' => '2017-05-10T09:15:26+04:00',
+      'TIME_FINISH' => '2017-05-10T18:00:00+04:00',
+      'DURATION' => '08:44:34',
+      'TIME_LEAKS' => '00:00:00',
+      'ACTIVE' => '',
+      'IP_OPEN' => '81.201.64.10',
+      'IP_CLOSE' => '81.201.64.10',
+      'LAT_OPEN' => '0',
+      'LON_OPEN' => '0',
+      'LAT_CLOSE' => '0',
+      'LON_CLOSE' => '0',
+      'TZ_OFFSET' => '14400',
+    ),
+    'time' => 
+    array (
+      'start' => '1674477028.5428',
+      'finish' => '1674477028.5959',
+      'duration' => '0.053076982498169',
+      'processing' => '0.010493993759155',
+      'date_start' => '2023-01-23T15:30:28+03:00',
+      'date_finish' => '2023-01-23T15:30:28+03:00',
+      'operating_reset_at' => '1674477628',
+      'operating' => '0',
+    ),
+  ),
+)

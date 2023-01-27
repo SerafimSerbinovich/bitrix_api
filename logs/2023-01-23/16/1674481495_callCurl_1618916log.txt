@@ -1,0 +1,60 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/crm.deal.update.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/crm.deal.update.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 400,
+    'header_size' => 858,
+    'request_size' => 195,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.12028600000000000402877731175976805388927459716796875,
+    'namelookup_time' => 0.0013040000000000000375532938079459199798293411731719970703125,
+    'connect_time' => 0.01126599999999999997257749129175863345153629779815673828125,
+    'pretransfer_time' => 0.025055000000000000881517081552374293096363544464111328125,
+    'size_upload' => 123.0,
+    'size_download' => 78.0,
+    'speed_download' => 648.0,
+    'speed_upload' => 1022.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 123.0,
+    'starttransfer_time' => 0.0250590000000000014124257319281241507269442081451416015625,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '95.163.249.170',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 47591,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 24791,
+    'connect_time_us' => 11266,
+    'namelookup_time_us' => 1304,
+    'pretransfer_time_us' => 25055,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 25059,
+    'total_time_us' => 120286,
+  ),
+  'params' => 
+  array (
+    'method' => 'crm.deal.update',
+    'params' => 
+    array (
+      'id' => '123',
+      'fields' => '{"ASSIGNED_BY_ID": 118}',
+      'auth' => '489bce6300604f8800000e51000003a40000076aa23720e6af07705002f860439a8c4a',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => '',
+    'error_description' => 'Parameter \'fields\' must be array.',
+  ),
+)

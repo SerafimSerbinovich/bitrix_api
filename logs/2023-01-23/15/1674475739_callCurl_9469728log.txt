@@ -1,0 +1,60 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/user.get.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 691,
+    'request_size' => 188,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.15734300000000001062971932697109878063201904296875,
+    'namelookup_time' => 0.0016169999999999999477917622670020136865787208080291748046875,
+    'connect_time' => 0.0270020000000000016948664693927639746107161045074462890625,
+    'pretransfer_time' => 0.0525090000000000001190159082398167811334133148193359375,
+    'size_upload' => 103.0,
+    'size_download' => 86.0,
+    'speed_download' => 546.0,
+    'speed_upload' => 654.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 103.0,
+    'starttransfer_time' => 0.052512999999999997180477606661952449940145015716552734375,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.50',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 38975,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 52276,
+    'connect_time_us' => 27002,
+    'namelookup_time_us' => 1617,
+    'pretransfer_time_us' => 52509,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 52513,
+    'total_time_us' => 157343,
+  ),
+  'params' => 
+  array (
+    'method' => 'user.get',
+    'params' => 
+    array (
+      'FILTER' => 'USER_TYPE=employee',
+      'auth' => '07e2be6300604f8800000e51000003a4000007b52bb64b0f4d56df30d3594bee9c34e2',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => 'expired_token',
+    'error_description' => 'The access token provided has expired.',
+    'error_information' => 'expired token, cant get new auth? Check access oauth server.',
+  ),
+)

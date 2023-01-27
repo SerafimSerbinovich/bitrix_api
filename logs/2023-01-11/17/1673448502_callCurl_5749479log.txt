@@ -1,0 +1,59 @@
+array (
+  'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+  'info' => 
+  array (
+    'url' => 'https://triadadigital.bitrix24.ru/rest/timeman.status.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 401,
+    'header_size' => 691,
+    'request_size' => 193,
+    'filetime' => -1,
+    'ssl_verify_result' => 19,
+    'redirect_count' => 0,
+    'total_time' => 0.1011019999999999974260589397090370766818523406982421875,
+    'namelookup_time' => 0.0023349999999999998361033259897112657199613749980926513671875,
+    'connect_time' => 0.011900000000000000854871728961370536126196384429931640625,
+    'pretransfer_time' => 0.0242950000000000006228351168147128191776573657989501953125,
+    'size_upload' => 85.0,
+    'size_download' => 125.0,
+    'speed_download' => 1236.0,
+    'speed_upload' => 840.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 85.0,
+    'starttransfer_time' => 0.02429800000000000015365486660812166519463062286376953125,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '195.208.185.4',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '5.101.157.149',
+    'local_port' => 36193,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 24120,
+    'connect_time_us' => 11900,
+    'namelookup_time_us' => 2335,
+    'pretransfer_time_us' => 24295,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 24298,
+    'total_time_us' => 101102,
+  ),
+  'params' => 
+  array (
+    'method' => 'timeman.status',
+    'params' => 
+    array (
+      'USER_ID' => '1',
+      'auth' => '4ecdbe6300604f8800000e51000003a4000007bea83e607264ead1e5ea9b5412f350fc',
+    ),
+  ),
+  'result' => 
+  array (
+    'error' => 'insufficient_scope',
+    'error_description' => 'The request requires higher privileges than provided by the access token',
+  ),
+)

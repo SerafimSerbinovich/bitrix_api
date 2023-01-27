@@ -1,0 +1,34 @@
+array (
+  'request' => 
+  array (
+    'event' => 'ONAPPINSTALL',
+    'data' => 
+    array (
+      'VERSION' => '1',
+      'ACTIVE' => 'Y',
+      'INSTALLED' => 'Y',
+      'LANGUAGE_ID' => 'ru',
+    ),
+    'ts' => '1673448614',
+    'auth' => 
+    array (
+      'access_token' => 'b6dabe6300604f8800000e51000003a4000007ace1c64e3f7334c8dbcdbf6bae81a026',
+      'expires' => '1673452214',
+      'expires_in' => '3600',
+      'scope' => 'crm,user,timeman',
+      'domain' => 'triadadigital.bitrix24.ru',
+      'server_endpoint' => 'https://oauth.bitrix.info/rest/',
+      'status' => 'L',
+      'client_endpoint' => 'https://triadadigital.bitrix24.ru/rest/',
+      'member_id' => '3bad6b92613636df914af76c2c17c861',
+      'user_id' => '932',
+      'refresh_token' => 'a659e66300604f8800000e51000003a40000079f8f8dea673146106cc802dffae3eb9b',
+      'application_token' => '573dba95c9d0eceb8fe00a8f5dfea509',
+    ),
+  ),
+  'result' => 
+  array (
+    'rest_only' => true,
+    'install' => true,
+  ),
+)
